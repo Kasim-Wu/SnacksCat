@@ -15,6 +15,12 @@
 		866615391C29F4E600EF507F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 866615371C29F4E600EF507F /* LaunchScreen.storyboard */; };
 		866615441C29F4E600EF507F /* SnacksCatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 866615431C29F4E600EF507F /* SnacksCatTests.m */; };
 		8666154F1C29F4E600EF507F /* SnacksCatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666154E1C29F4E600EF507F /* SnacksCatUITests.m */; };
+		866615751C29F90C00EF507F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866615741C29F90C00EF507F /* MainViewController.m */; };
+		866615781C29FD2D00EF507F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866615771C29FD2D00EF507F /* BaseViewController.m */; };
+		8666157B1C29FD6700EF507F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666157A1C29FD6700EF507F /* HomeViewController.m */; };
+		8666157E1C29FD8600EF507F /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8666157D1C29FD8600EF507F /* MineViewController.m */; };
+		866615811C29FD9000EF507F /* SaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866615801C29FD9000EF507F /* SaleViewController.m */; };
+		866615841C29FD9D00EF507F /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 866615831C29FD9D00EF507F /* TopicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		8666154A1C29F4E600EF507F /* SnacksCatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnacksCatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8666154E1C29F4E600EF507F /* SnacksCatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnacksCatUITests.m; sourceTree = "<group>"; };
 		866615501C29F4E600EF507F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866615731C29F90C00EF507F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		866615741C29F90C00EF507F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		866615761C29FD2D00EF507F /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		866615771C29FD2D00EF507F /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		866615791C29FD6700EF507F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		8666157A1C29FD6700EF507F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		8666157C1C29FD8600EF507F /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		8666157D1C29FD8600EF507F /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		8666157F1C29FD9000EF507F /* SaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaleViewController.h; sourceTree = "<group>"; };
+		866615801C29FD9000EF507F /* SaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaleViewController.m; sourceTree = "<group>"; };
+		866615821C29FD9D00EF507F /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
+		866615831C29FD9D00EF507F /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +164,7 @@
 		8666155C1C29F58B00EF507F /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				8666156F1C29F7A100EF507F /* Util */,
 				8666155D1C29F58B00EF507F /* Home */,
 				866615611C29F58B00EF507F /* Mine */,
 				866615651C29F58B00EF507F /* Sale */,
@@ -167,6 +186,8 @@
 		8666155E1C29F58B00EF507F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				866615791C29FD6700EF507F /* HomeViewController.h */,
+				8666157A1C29FD6700EF507F /* HomeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,6 +219,8 @@
 		866615621C29F58B00EF507F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8666157C1C29FD8600EF507F /* MineViewController.h */,
+				8666157D1C29FD8600EF507F /* MineViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -229,6 +252,8 @@
 		866615661C29F58B00EF507F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8666157F1C29FD9000EF507F /* SaleViewController.h */,
+				866615801C29FD9000EF507F /* SaleViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -260,6 +285,8 @@
 		8666156A1C29F58B00EF507F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				866615821C29FD9D00EF507F /* TopicViewController.h */,
+				866615831C29FD9D00EF507F /* TopicViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -290,6 +317,17 @@
 			children = (
 			);
 			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		8666156F1C29F7A100EF507F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				866615731C29F90C00EF507F /* MainViewController.h */,
+				866615741C29F90C00EF507F /* MainViewController.m */,
+				866615761C29FD2D00EF507F /* BaseViewController.h */,
+				866615771C29FD2D00EF507F /* BaseViewController.m */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -426,8 +464,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				866615311C29F4E600EF507F /* ViewController.m in Sources */,
+				8666157E1C29FD8600EF507F /* MineViewController.m in Sources */,
+				866615781C29FD2D00EF507F /* BaseViewController.m in Sources */,
+				866615811C29FD9000EF507F /* SaleViewController.m in Sources */,
 				8666152E1C29F4E600EF507F /* AppDelegate.m in Sources */,
+				866615841C29FD9D00EF507F /* TopicViewController.m in Sources */,
 				8666152B1C29F4E600EF507F /* main.m in Sources */,
+				866615751C29F90C00EF507F /* MainViewController.m in Sources */,
+				8666157B1C29FD6700EF507F /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +699,7 @@
 				866615551C29F4E600EF507F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		866615561C29F4E600EF507F /* Build configuration list for PBXNativeTarget "SnacksCatTests" */ = {
 			isa = XCConfigurationList;
@@ -663,6 +708,7 @@
 				866615581C29F4E600EF507F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		866615591C29F4E600EF507F /* Build configuration list for PBXNativeTarget "SnacksCatUITests" */ = {
 			isa = XCConfigurationList;
@@ -671,6 +717,7 @@
 				8666155B1C29F4E600EF507F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
